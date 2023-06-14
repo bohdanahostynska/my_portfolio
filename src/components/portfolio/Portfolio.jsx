@@ -23,9 +23,6 @@ function Portfolio() {
         <span className="work__item" onClick={() => filterItem("Creative")}>
           Creative
         </span>
-        <span className="work__item" onClick={() => filterItem("Art")}>
-          Art
-        </span>
         <span className="work__item" onClick={() => filterItem("Design")}>
           Design
         </span>

@@ -16,7 +16,7 @@ const Menu = [
     id: 2,
     image: Work2,
     title: "Task manager",
-    category: "Art",
+    category: "Design",
     link: "https://bohdanahostynska.github.io/Task-manager/",
   },
 
