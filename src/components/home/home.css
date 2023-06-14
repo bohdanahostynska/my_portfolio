@@ -12,11 +12,15 @@
 
 .home__img{
     margin-bottom: 1.5rem;
+    width: 100px;
+    height:100px;
+    border-radius: 15px;
 }
 .home__name{
     font-size: var(--h1-font-size);
     font-weight: var(--font-bold);
     margin-bottom: 0.5rem;
+    color:hsl(245, 8%, 27%);
 }
 
 .home__socials{
@@ -24,6 +28,10 @@
     column-gap: 1.75rem;
     margin: 1.5rem 0;
     justify-content: space-around;
+}
+
+.home__education{
+    color:hsl(245, 8%, 27%);
 }
 
 .home__socials-link{
@@ -44,6 +52,7 @@
 
 .home__scroll-name{
     font-size: var(--small-font-size);
+   color:hsl(350, 3%, 35%);
 }
 
 .mouse{
@@ -84,3 +93,10 @@
     animation: ani-mouse 2s linear infinite;
 }
 
+
+@media screen and (max-width:1024px) {
+
+    .home__social-link{
+        font-size: 1.125rem;
+    }
+}

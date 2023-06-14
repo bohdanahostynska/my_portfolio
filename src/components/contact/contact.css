@@ -7,6 +7,9 @@
     column-gap:1.875rem;
 }
 
+.contact__details{
+    color:hsl(245, 8%, 27%);
+} 
 .contact__title{
     font-size: var(--h3-font-size);
     margin-bottom: 0.5rem;
@@ -45,4 +48,38 @@
   }
 .contact__form-area textarea{
   resize: none;
+}
+
+
+@media screen and (max-width:1024px) {
+
+    .contact__container{
+     grid-template-columns:300px 360px;
+     justify-content: center;
+    }
+
+    .contact__form-group{
+        grid-template-columns: 1fr;
+    }
+
+}
+@media screen and (max-width:768px) {
+    .contact__container{
+        grid-template-columns:310px;
+        row-gap: 1.875rem;
+    }
+
+    .work__filters{
+        row-gap: .25rem;
+    }
+
+    .contact__info{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .contact__container{
+        grid-template-columns:1fr;
+    }
 }

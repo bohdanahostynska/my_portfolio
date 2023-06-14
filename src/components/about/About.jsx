@@ -1,7 +1,8 @@
 import React from "react";
 import "./about.css";
-import Image from "../../assets/avatar-2.svg"
+import Image from "../../assets/photo_my.jpg"
 import AboutBox from "./AboutBox";
+import resume from "../../assets/My CV.pdf"
 
 function About() {
   return(
@@ -14,7 +15,7 @@ function About() {
         <div className="about__data grid">
           <div className="about__info">
             <p className="about__description">I am Bohdana Hostynska, a web developer from Ukraine.I have rich experience in web site design and building customization.</p>
-            <a href="#" className="btn">Download my CV</a>
+            <a href={resume} download='resume' className="btn">Download my CV</a>
           </div>
 
           <div className="about__skills grid">
