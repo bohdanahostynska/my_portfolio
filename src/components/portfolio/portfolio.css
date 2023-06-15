@@ -17,7 +17,7 @@
     cursor: pointer;
     font-weight: var(--font-bold);
     transition: 0.3s;
-    color:hsl(245, 8%, 27%);
+    color: rgb(142, 102, 191);
 }
 
 .work__item:hover {

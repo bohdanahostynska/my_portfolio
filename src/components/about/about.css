@@ -5,7 +5,7 @@
 
 .about__data {
   padding: 1.875rem;
-  background-color: rgb(142, 135, 150);
+  background-color: rgb(142, 102, 191);
   box-shadow: var(--shadow);
   border-radius: var(--border-radius);
   grid-template-columns: repeat(2, 1fr);
@@ -17,9 +17,9 @@
   content: "";
   width: 0;
   height: 0;
-  border-top: 10px solid transparent;
+  border-top: 11px solid transparent;
   border-bottom: 10px solid transparent;
-  border-right: 15px solid var(--container-color);
+  border-right: 15px solid rgb(142, 102, 191);
   position: absolute;
   left: -0.93rem;
   top: 20%;
@@ -78,7 +78,7 @@
 }
 
 .about__boxes {
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   column-gap: 1.875rem;
   margin-top: 4.35rem;
 }
@@ -90,16 +90,16 @@
 
 .about__icon {
   font-size: var(--h1-font-size);
-  color: #dedeea;
+color: #8888b5;  
 }
 
 .about__title {
   font-size: 1.875rem;
-  color: #dedeea;
+  color:#8888b5;
 }
 
 .about__subtitle{
-  color: #dedeea;
+  color:#8888b5;
 }
 @media screen and (max-width: 1024px) {
   .about__container {
@@ -111,14 +111,14 @@
   .about__data::before {
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-bottom: 10px solid #fff;
+    border-bottom: 10px solid  rgb(142, 102, 191);
     left: 49%;
     top: -20px;
   }
 
   .about__img {
     justify-self: center;
-    padding: 30px;
+    padding: 60px;
   }
 
   .about__box {
@@ -142,7 +142,7 @@
   }
 
   .about__boxes {
-    grid-template-columns: repeat(2, 150px);
+    grid-template-columns:repeat(3, 100px);
     row-gap: 1.5rem;
     justify-content: center;
   }

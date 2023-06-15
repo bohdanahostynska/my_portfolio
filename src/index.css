@@ -57,6 +57,7 @@
 
      html{
       scroll-behavior: smooth;
+
      }
      body,
      button,
@@ -70,6 +71,7 @@
       background-color: var(---body-color);
       line-height: 1.7;
       color: var(---text-color);
+      overflow-x: hidden;
      }
 
      h1,h2,h3{
@@ -118,7 +120,7 @@
       font-weight: var(--font-bold);
       position: relative;
       margin-bottom: 3.75rem;
-      color:hsl(245, 8%, 27%);
+      color: rgb(142, 102, 191);
     }
 
     .section__title::before{
@@ -137,9 +139,9 @@
       border-radius: 1.875rem;
       box-shadow: 0 0 1px rgb(0 0 0 /0%);
       border: 1px solid transparent;
-      color: #fff;
+      background-color: hsl(43, 100%,68%);
       display: inline-block;
-      background-color:var(--first-color);
+      color:black;
       font-weight: var(--font-bold);
     }
     @keyframes button-push{

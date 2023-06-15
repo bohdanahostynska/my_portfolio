@@ -1,6 +1,7 @@
 .main{
   margin-left: 110px;
-  background-color: rgb(129, 122, 122);;
+/* background-color: rgb(228, 222, 222);   */
+background-color: black;
 }
 
 @media screen and (max-width:1024px) {

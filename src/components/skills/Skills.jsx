@@ -2,11 +2,11 @@ import React from "react";
 import "./skills.css";
 import git from "../../assets/git.svg";
 import javascript from "../../assets/javascript.svg";
-import github from "../../assets/png-git.png";
+import github from "../../assets/github2.svg";
 import react from "../../assets/react.svg";
 import redux from "../../assets/redux.svg";
-import css from "../../assets/css.svg";
-import html from "../../assets/html.svg";
+import css from "../../assets/css-144.png";
+import html from "../../assets/html-144.png";
 import formik from "../../assets/formik.svg"
 
 const data = [

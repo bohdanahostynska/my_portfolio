@@ -10,17 +10,17 @@ import 'swiper/css/pagination';
 const data=[
     {
     id:1,
-    image:Image2,
-    title:"Oksana Voloshyn",
+    // image:Image2,
+    title:"Oksana Voloshenko",
     subtitle:'Product designer at Dribble',
     comment:"Great work as always!"
     },
     {
         id:2,
-        image:Image3,
+        // image:Image3,
         title:"Christina",
         subtitle:'Product designer at Dribble',
-        comment:"Well,hope to see you again in the future! Working with you was complete joy and great experience!"
+        comment:"Well,hope to see you again in the future! Working with you was complete joy!"
     }
 ]
 

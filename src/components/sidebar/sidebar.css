@@ -2,7 +2,7 @@
   position: fixed;
   left: 0;
   top: 0;
-  background:hsl(353, 7%, 55%);
+  background-color: rgb(142, 102, 191);
   border-right: 1px solid rgba(0, 0, 0, 0.05);
   padding: 2.5rem;
   width: 110px;
@@ -40,8 +40,8 @@
   cursor: pointer;
   height: 40px;
   width: 45px;
-  background:hsl(353, 7%, 55%);
-  border: 1px solid #a3a0a4;
+  background: rgb(142, 102, 191);
+  border: 1px solid #474448;
   display: none;
   justify-content: center;
   align-items: center;
