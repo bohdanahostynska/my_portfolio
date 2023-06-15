@@ -17,7 +17,7 @@ const AboutBox = () => {
         <i className="about__icon icon-cup "></i>
         
         <div>
-            <h3 className="about__title">56</h3>
+            <h3 className="about__title">4356</h3>
             <span className="about__subtitle">Cups of coffee</span>
         </div>
     </div>
