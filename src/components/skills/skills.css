@@ -1,6 +1,7 @@
 .skills__container{
     grid-template-columns: repeat(4,2fr);
     gap: 3.875rem;
+    flex-wrap: wrap;
 }
 
 .skills__card{
@@ -25,7 +26,13 @@
     color: #ffff;
 }
 
-
+@media screen and (max-width:1140px) {
+    .skills__container{
+     grid-template-columns: repeat(2, 210px);
+     justify-content: center;
+     flex-wrap: wrap;
+    }
+}
 @media screen and (max-width:1024px) {
     .skills__container{
      grid-template-columns: repeat(2, 210px);
@@ -36,6 +43,50 @@
 }
 @media screen and (max-width:768px) {
     .skills__container{
-        grid-template-columns: 210px;
+        grid-template-columns: repeat(2, 210px);
+        gap: 0.875rem;
     }
+
+    .section__title{
+        margin-bottom: 10px;
+    }
+
+    .skills__card{
+        width:180px;
+        height: 180px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .skills__container{
+        column-gap: 0;
+        grid-template-columns: repeat(2, 180px);
+
+    }
+    
+    .skills__card{
+        width:140px;
+        height: 140px;
+    }
+
+}
+@media screen and (max-width:480px) {
+    .skills__container{
+        column-gap: 0;
+        grid-template-columns: repeat(2, 155px);
+
+    }
+
+}
+@media screen and (max-width:350px) {
+    .skills__container{
+        column-gap: 0;
+        grid-template-columns: repeat(2, 150px);
+
+    }
+
+     .section{
+        padding-bottom: 2.875rem;
+      }
+
 }

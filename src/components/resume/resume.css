@@ -84,8 +84,8 @@
         grid-template-columns: 300px;
     }
  .timeline__item{
-    padding-left: 1.875rem;
-    padding-bottom: 1.875rem;
+    padding-left: 0.875rem;
+    padding-bottom: 0.875rem;
  }
 
  .timeline__item::before{

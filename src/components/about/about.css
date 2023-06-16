@@ -156,8 +156,15 @@ color: #8888b5;
 @media screen and (max-width: 350px) {
     .about__container{
        grid-template-columns:1fr;
+       gap: 0;
+    }
+    .section{
+      padding-top: 1.875rem;
     }
 
+    .about__title{
+      margin-bottom: 0;
+    }
     .about__boxes{
         grid-template-columns: 1fr;
     }

@@ -8,7 +8,7 @@
   --title-color:hsl(246, 12%, 30%);
   --text-color:hsl(244,16%,43%);
   --body-color:hsl(258,60%,98%);
-  --container-color:hsl(258,60%,98%);
+  --container-color:black;
 
   /*=========== Font and Typography =========*/
   /* .5rem = 8px | 1rem = 16px ...*/
