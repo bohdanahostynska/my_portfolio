@@ -21,7 +21,7 @@
 }
 
 .work__item:hover {
-    color: var(--first-color);
+    color: rgb(142, 102, 191);
 }
 
 .work__container {
@@ -54,9 +54,8 @@
 
 .work__category {
     color: #fff;
-    background-color: var(--first-color);
-    border-bottom-left-radius: 0.98rem;
-    border-bottom-right-radius: 0.98rem;
+    border-bottom-left-radius: 0.78rem;
+    border-bottom-right-radius: 0.78rem;
     position: absolute;
     top: 0;
     left: 1.5rem;
@@ -65,6 +64,7 @@
     padding: 0.19rem 0.625rem;
     transform: translateY(-40px);
     transition: 0.3s;
+    background-color: #ffd15c;
 }
 
 .work__title {
