@@ -32,8 +32,8 @@ function About() {
 
             <div className="skills__data">
               <div className="skills__titles">
-                <h3 className="skills__name">UI/UX design</h3>
-                  <span className="skills__number">80%</span>
+                <h3 className="skills__name">Languages</h3>
+                  <span className="skills__number">90%</span>
               </div>
 
               <div className="skills__bar">
@@ -43,8 +43,8 @@ function About() {
 
             <div className="skills__data">
               <div className="skills__titles">
-                <h3 className="skills__name">Photography</h3>
-                  <span className="skills__number">60%</span>
+                <h3 className="skills__name">UI/UX design</h3>
+                  <span className="skills__number">70%</span>
               </div>
 
               <div className="skills__bar">
