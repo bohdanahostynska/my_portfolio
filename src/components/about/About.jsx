@@ -2,7 +2,7 @@ import React from "react";
 import "./about.css";
 import Image from "../../assets/photo_my.jpg"
 import AboutBox from "./AboutBox";
-import resume from "../../assets/My CV.pdf"
+import resume from "../../assets/My_CV.pdf"
 
 function About() {
   return(
@@ -14,7 +14,7 @@ function About() {
         
         <div className="about__data grid">
           <div className="about__info">
-            <p className="about__description">I am Bohdana Hostynska, a web developer from Ukraine.I have rich experience in web site design and building customization.</p>
+            <p className="about__description">I am Bohdana Hostynska, a web developer from Ukraine.I have experience in web site design and building customization.</p>
             <a href={resume} download='resume' className="btn">Download my CV</a>
           </div>
 
@@ -44,7 +44,7 @@ function About() {
             <div className="skills__data">
               <div className="skills__titles">
                 <h3 className="skills__name">UI/UX design</h3>
-                  <span className="skills__number">70%</span>
+                  <span className="skills__number">30%</span>
               </div>
 
               <div className="skills__bar">
