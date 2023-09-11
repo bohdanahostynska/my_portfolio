@@ -4,6 +4,8 @@ import Image from "../../assets/photo_my.jpg"
 import AboutBox from "./AboutBox";
 import resume from "../../assets/My_CV.pdf"
 
+
+
 function About() {
   return(
     <section className="about container section" id="about">

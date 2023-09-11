@@ -1,7 +1,7 @@
 import Work1 from "../../assets/work--4.jpg";
 import Work2 from "../../assets/work--2.jpg";
 import Work3 from "../../assets/work--3.jpg";
-import Work4 from "../../assets/work--1.jpg";
+import Work4 from "../../assets/work4..jpg";
 
 const Menu = [
   {
@@ -30,9 +30,9 @@ const Menu = [
   {
     id: 4,
     image: Work4,
-    title: "Just relax",
+    title: "Nike",
     category: "Design",
-    link: "https://bohdanahostynska.github.io/just-relax/",
+    link: "https://nike-shop-agbj3lr8n-bohdanahostynska.vercel.app/",
 
   },
 ];
