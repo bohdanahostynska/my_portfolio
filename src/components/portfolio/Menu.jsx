@@ -32,7 +32,7 @@ const Menu = [
     image: Work4,
     title: "Nike",
     category: "Design",
-    link: "https://nike-shop-agbj3lr8n-bohdanahostynska.vercel.app/",
+    link: "https://nike-shop-sandy.vercel.app/",
 
   },
 ];
